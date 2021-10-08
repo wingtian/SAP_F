@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2021-10-08T10:21:57.318Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" version="14.9.2" etag="b7ZiyVSsHZ0aQFLC5h2u" type="github"><diagram id="_jstRdxq_F-b-79dcqke">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-08T10:22:15.514Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="_E6Ww3Zz18-pX9ampl_V" version="14.9.2" type="github">
+  <diagram id="_jstRdxq_F-b-79dcqke" name="Page-1">
+    <mxGraphModel dx="1191" dy="713" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zYAeYuyZeaAfNa6e6KdH-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zYAeYuyZeaAfNa6e6KdH-2" target="zYAeYuyZeaAfNa6e6KdH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zYAeYuyZeaAfNa6e6KdH-2" value="SAP" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="110" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zYAeYuyZeaAfNa6e6KdH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zYAeYuyZeaAfNa6e6KdH-5" target="zYAeYuyZeaAfNa6e6KdH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zYAeYuyZeaAfNa6e6KdH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zYAeYuyZeaAfNa6e6KdH-5" target="zYAeYuyZeaAfNa6e6KdH-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zYAeYuyZeaAfNa6e6KdH-5" value="RFC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zYAeYuyZeaAfNa6e6KdH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zYAeYuyZeaAfNa6e6KdH-8" target="zYAeYuyZeaAfNa6e6KdH-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zYAeYuyZeaAfNa6e6KdH-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zYAeYuyZeaAfNa6e6KdH-8" target="zYAeYuyZeaAfNa6e6KdH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zYAeYuyZeaAfNa6e6KdH-8" value="SE37的RFC接口(自己编写)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zYAeYuyZeaAfNa6e6KdH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zYAeYuyZeaAfNa6e6KdH-11" target="zYAeYuyZeaAfNa6e6KdH-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zYAeYuyZeaAfNa6e6KdH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zYAeYuyZeaAfNa6e6KdH-11" target="zYAeYuyZeaAfNa6e6KdH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zYAeYuyZeaAfNa6e6KdH-11" value="BAPI(SAP写好的接口)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zYAeYuyZeaAfNa6e6KdH-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.58;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zYAeYuyZeaAfNa6e6KdH-13" target="zYAeYuyZeaAfNa6e6KdH-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zYAeYuyZeaAfNa6e6KdH-13" value="SAP业务对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zYAeYuyZeaAfNa6e6KdH-14" value="外部程序(.NET /JAVA等等)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zYAeYuyZeaAfNa6e6KdH-15" value="SAP 系统间调用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
