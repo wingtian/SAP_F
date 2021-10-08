@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2021-10-08T10:53:24.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" version="14.9.2" etag="INkWMaR9uSGcOC6a2muz" type="github"><diagram id="Ja-3kAtuD58AUL1aEJjm">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-08T11:24:01.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="qvpYdBKH2NaFdiiUA2w4" version="14.9.2" type="github">
+  <diagram id="Ja-3kAtuD58AUL1aEJjm" name="Page-1">
+    <mxGraphModel dx="1191" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BRGDsm2yy0-ikxAPLwO4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BRGDsm2yy0-ikxAPLwO4-1" target="BRGDsm2yy0-ikxAPLwO4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRGDsm2yy0-ikxAPLwO4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BRGDsm2yy0-ikxAPLwO4-1" target="BRGDsm2yy0-ikxAPLwO4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRGDsm2yy0-ikxAPLwO4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BRGDsm2yy0-ikxAPLwO4-1" target="BRGDsm2yy0-ikxAPLwO4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRGDsm2yy0-ikxAPLwO4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BRGDsm2yy0-ikxAPLwO4-1" target="BRGDsm2yy0-ikxAPLwO4-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRGDsm2yy0-ikxAPLwO4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BRGDsm2yy0-ikxAPLwO4-1" target="BRGDsm2yy0-ikxAPLwO4-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRGDsm2yy0-ikxAPLwO4-1" value="SAP RFC(远程调用的function)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BRGDsm2yy0-ikxAPLwO4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BRGDsm2yy0-ikxAPLwO4-2" target="BRGDsm2yy0-ikxAPLwO4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRGDsm2yy0-ikxAPLwO4-2" value="同步RFC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRGDsm2yy0-ikxAPLwO4-3" value="外部程序需要等返回结果后继续" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="90" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRGDsm2yy0-ikxAPLwO4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BRGDsm2yy0-ikxAPLwO4-6" target="BRGDsm2yy0-ikxAPLwO4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRGDsm2yy0-ikxAPLwO4-6" value="异步RFC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRGDsm2yy0-ikxAPLwO4-7" value="类似于Event/Command,需要在SM58中查看错误日志" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="180" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRGDsm2yy0-ikxAPLwO4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BRGDsm2yy0-ikxAPLwO4-10" target="BRGDsm2yy0-ikxAPLwO4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRGDsm2yy0-ikxAPLwO4-10" value="并行RFC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRGDsm2yy0-ikxAPLwO4-12" value="异步RFC其实也是并行RFC,就是要并行处理的异步RFC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="270" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRGDsm2yy0-ikxAPLwO4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BRGDsm2yy0-ikxAPLwO4-14" target="BRGDsm2yy0-ikxAPLwO4-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRGDsm2yy0-ikxAPLwO4-14" value="事务性RFC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRGDsm2yy0-ikxAPLwO4-16" value="一个事务里面跑多个function,可以同事回滚所有function" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="360" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRGDsm2yy0-ikxAPLwO4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BRGDsm2yy0-ikxAPLwO4-18" target="BRGDsm2yy0-ikxAPLwO4-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRGDsm2yy0-ikxAPLwO4-18" value="队列RFC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRGDsm2yy0-ikxAPLwO4-21" value="就是有多个事务RFC,按照创建次序执行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="450" width="200" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
