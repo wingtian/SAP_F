@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T08:33:49.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="AnUQ8h3ET-70KB0aAHN6" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T09:08:09.192Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="A1ZrOKL-9m3W_SlFSG-q" version="15.4.3" type="github">
   <diagram id="tuSrNq8mby0oLhv5JVzC" name="Page-1">
     <mxGraphModel dx="1191" dy="3051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -72,6 +72,12 @@
         </mxCell>
         <mxCell id="em01OQfZA1FiDuqLtJ1R-22" value="TYPE-POOLS引用类型池&lt;br&gt;TYPE-POOLS:icon,abap." style="rounded=1;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
           <mxGeometry x="362" y="-430" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="em01OQfZA1FiDuqLtJ1R-34" value="SEARCH搜索指定字符串" style="rounded=1;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-250" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="em01OQfZA1FiDuqLtJ1R-35" value="RANGES建立选择性内表:&lt;br&gt;DATA:r_mat LIKE RANGE OF mara-matnr&lt;br&gt;range 内表表头不能为空,一般需要对表头赋值:&lt;br&gt;READ TABLE r_mat INDEX 1." style="rounded=1;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="364" y="-160" width="410" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
