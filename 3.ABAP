@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-11T09:04:25.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="RUxi_Yn0GlWjzWYzSqj6" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-11T09:24:53.737Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="GBWK5bNpKd1-WBoHUJjw" version="15.5.0" type="github">
   <diagram id="tuSrNq8mby0oLhv5JVzC" name="Page-1">
     <mxGraphModel dx="1191" dy="3051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,8 +85,17 @@
         <mxCell id="haaAPfIcuy-l9ZX20Lfi-10" value="从数据取值到指定变量中:&lt;br&gt;DATA:l_matnr TYPE matnr.&lt;br&gt;SELECT SINGLE matnr INTO l_matnr FROM mara WHERE matnr = &#39;1000001&#39;." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="520" y="-30" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="haaAPfIcuy-l9ZX20Lfi-11" value="从数据取值到指定变量中:&lt;br&gt;DATA:l_matnr TYPE matnr.&lt;br&gt;SELECT SINGLE matnr INTO l_matnr FROM mara WHERE matnr = &#39;1000001&#39;." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="520" y="50" width="300" height="60" as="geometry" />
+        <mxCell id="haaAPfIcuy-l9ZX20Lfi-11" value="调用函数查取变量:&lt;br&gt;DATA:L_matnr TYPE matnr,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; l_cnt TYPE i.&lt;br&gt;SELECT MAX(matnr) INTO l_matnr FROM mara.&lt;br&gt;SELECT COUNT(*) INTO l_cnt FROM mara." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="50" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="haaAPfIcuy-l9ZX20Lfi-12" value="将查询结果集赋值到内表:&lt;br&gt;DATA:lt_mara LIKE TABLE OF mara WITH HEADER LINE.&lt;br&gt;SELECT * INTO CORRESPOND FIELDS OF TALBE lt_mara FROM mara&lt;br&gt;WHERE matnr BETWEEN &#39;1000001&#39; AND &#39;1000009&#39;.&lt;br&gt;其中CORRESPONDING,就是自动讲相同字段名的值分配的内表中&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="150" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="haaAPfIcuy-l9ZX20Lfi-13" value="将查询结果单行赋值到表结构中:&lt;br&gt;DATA:ls_mara TYPE mara.&lt;br&gt;SELECT SINGLE * INTO CORRESPONDING FIELDS OF ls_mara FROM mara WHERE matnr&amp;nbsp; = &#39;1000001&#39;." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="haaAPfIcuy-l9ZX20Lfi-14" value="表联合查询" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="430" width="300" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
