@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-12T10:08:50.773Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="BWGOIDCzUrhSX7HQr2qU" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-12T10:11:49.346Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="g_vCPAdp2rCZeGzmp3rb" version="15.5.0" type="github">
   <diagram id="tuSrNq8mby0oLhv5JVzC" name="Page-1">
     <mxGraphModel dx="1191" dy="3051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,6 +56,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i7QzTo_KSgBQmP9yVamS-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="em01OQfZA1FiDuqLtJ1R-6" target="i7QzTo_KSgBQmP9yVamS-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="em01OQfZA1FiDuqLtJ1R-6" target="i7QzTo_KSgBQmP9yVamS-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="em01OQfZA1FiDuqLtJ1R-6" value="Open SqL" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -185,7 +188,22 @@
           <mxGeometry x="520" y="1610" width="300" height="110" as="geometry" />
         </mxCell>
         <mxCell id="i7QzTo_KSgBQmP9yVamS-28" value="DELETE dbtab FROM TABLE itab." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1730" width="300" height="90" as="geometry" />
+          <mxGeometry x="520" y="1730" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="i7QzTo_KSgBQmP9yVamS-33" target="i7QzTo_KSgBQmP9yVamS-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="i7QzTo_KSgBQmP9yVamS-33" target="i7QzTo_KSgBQmP9yVamS-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-33" value="MODIFY&lt;br&gt;(不存在则新增)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-34" value="MODIFY dbtab.&lt;br&gt;例子:&lt;br&gt;scustom-id = &#39;1021&#39;.&lt;br&gt;scustom-name = &#39;vinson&#39;.&lt;br&gt;MODIFY scustom." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="521" y="1830" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-35" value="MODIFY dbtab FROM TABLE itab." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="521" y="1950" width="300" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
