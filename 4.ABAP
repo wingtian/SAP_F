@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-11T09:29:37.846Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="QM-hVCjCLCUY626hQSGT" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-12T10:08:50.773Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="BWGOIDCzUrhSX7HQr2qU" version="15.5.0" type="github">
   <diagram id="tuSrNq8mby0oLhv5JVzC" name="Page-1">
     <mxGraphModel dx="1191" dy="3051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,11 +40,23 @@
         <mxCell id="em01OQfZA1FiDuqLtJ1R-3" value="数据定义关键字" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="-600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="haaAPfIcuy-l9ZX20Lfi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="em01OQfZA1FiDuqLtJ1R-4" target="haaAPfIcuy-l9ZX20Lfi-3">
+        <mxCell id="haaAPfIcuy-l9ZX20Lfi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="em01OQfZA1FiDuqLtJ1R-4" target="haaAPfIcuy-l9ZX20Lfi-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="em01OQfZA1FiDuqLtJ1R-4" value="字符串处理方法" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="-150.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="em01OQfZA1FiDuqLtJ1R-6" target="haaAPfIcuy-l9ZX20Lfi-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="em01OQfZA1FiDuqLtJ1R-6" target="haaAPfIcuy-l9ZX20Lfi-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="em01OQfZA1FiDuqLtJ1R-6" target="haaAPfIcuy-l9ZX20Lfi-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="em01OQfZA1FiDuqLtJ1R-6" target="i7QzTo_KSgBQmP9yVamS-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="em01OQfZA1FiDuqLtJ1R-6" value="Open SqL" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="200" width="120" height="60" as="geometry" />
@@ -70,32 +82,110 @@
         <mxCell id="em01OQfZA1FiDuqLtJ1R-22" value="TYPE-POOLS引用类型池&lt;br&gt;TYPE-POOLS:icon,abap." style="rounded=1;whiteSpace=wrap;html=1;direction=west;align=left;" parent="1" vertex="1">
           <mxGeometry x="362" y="-430" width="410" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="haaAPfIcuy-l9ZX20Lfi-3" value="SEARCH搜索指定字符串:SEARCH str FOR &#39;SAP&#39;.&lt;br&gt;字符串的截取: STRLEN(xxx)&lt;br&gt;字符串的合并:CONCATENATE str1 str2 str3 into str4.&lt;br&gt;字符串的拆分: SPLIT str1 AT space INTO str1 str2 str3.&lt;br&gt;清除字符串后的空格:SHIFT str RIGHT DELETING TRAILING SPACE.&lt;br&gt;字符串的替换:REPLACE &#39;SAP&#39; WITH &#39;ERP&#39; INTO str.&lt;br&gt;字符串的大小写转换:TRANSLATE str TO UPPER/LOWER CASE." style="rounded=1;whiteSpace=wrap;html=1;direction=west;align=left;" vertex="1" parent="1">
+        <mxCell id="haaAPfIcuy-l9ZX20Lfi-3" value="SEARCH搜索指定字符串:SEARCH str FOR &#39;SAP&#39;.&lt;br&gt;字符串的截取: STRLEN(xxx)&lt;br&gt;字符串的合并:CONCATENATE str1 str2 str3 into str4.&lt;br&gt;字符串的拆分: SPLIT str1 AT space INTO str1 str2 str3.&lt;br&gt;清除字符串后的空格:SHIFT str RIGHT DELETING TRAILING SPACE.&lt;br&gt;字符串的替换:REPLACE &#39;SAP&#39; WITH &#39;ERP&#39; INTO str.&lt;br&gt;字符串的大小写转换:TRANSLATE str TO UPPER/LOWER CASE." style="rounded=1;whiteSpace=wrap;html=1;direction=west;align=left;" parent="1" vertex="1">
           <mxGeometry x="360" y="-171" width="414" height="101" as="geometry" />
         </mxCell>
-        <mxCell id="haaAPfIcuy-l9ZX20Lfi-7" value="SELECT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="361" y="50" width="120" height="60" as="geometry" />
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="haaAPfIcuy-l9ZX20Lfi-7" target="haaAPfIcuy-l9ZX20Lfi-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="haaAPfIcuy-l9ZX20Lfi-8" value="SELECT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="310" width="120" height="60" as="geometry" />
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="haaAPfIcuy-l9ZX20Lfi-7" target="haaAPfIcuy-l9ZX20Lfi-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="haaAPfIcuy-l9ZX20Lfi-9" value="SELECT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="430" width="120" height="60" as="geometry" />
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="haaAPfIcuy-l9ZX20Lfi-7" target="haaAPfIcuy-l9ZX20Lfi-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="haaAPfIcuy-l9ZX20Lfi-10" value="从数据取值到指定变量中:&lt;br&gt;DATA:l_matnr TYPE matnr.&lt;br&gt;SELECT SINGLE matnr INTO l_matnr FROM mara WHERE matnr = &#39;1000001&#39;." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="haaAPfIcuy-l9ZX20Lfi-7" target="haaAPfIcuy-l9ZX20Lfi-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="haaAPfIcuy-l9ZX20Lfi-7" target="haaAPfIcuy-l9ZX20Lfi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="haaAPfIcuy-l9ZX20Lfi-7" target="i7QzTo_KSgBQmP9yVamS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="haaAPfIcuy-l9ZX20Lfi-7" target="i7QzTo_KSgBQmP9yVamS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="haaAPfIcuy-l9ZX20Lfi-7" target="i7QzTo_KSgBQmP9yVamS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="haaAPfIcuy-l9ZX20Lfi-7" value="SELECT" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="haaAPfIcuy-l9ZX20Lfi-8" target="i7QzTo_KSgBQmP9yVamS-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="haaAPfIcuy-l9ZX20Lfi-8" target="i7QzTo_KSgBQmP9yVamS-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="haaAPfIcuy-l9ZX20Lfi-8" value="UPDATE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="haaAPfIcuy-l9ZX20Lfi-9" target="i7QzTo_KSgBQmP9yVamS-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="haaAPfIcuy-l9ZX20Lfi-9" target="i7QzTo_KSgBQmP9yVamS-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="haaAPfIcuy-l9ZX20Lfi-9" value="INSERT" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="haaAPfIcuy-l9ZX20Lfi-10" value="从数据取值到指定变量中:&lt;br&gt;DATA:l_matnr TYPE matnr.&lt;br&gt;SELECT SINGLE matnr INTO l_matnr FROM mara WHERE matnr = &#39;1000001&#39;." style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="520" y="-30" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="haaAPfIcuy-l9ZX20Lfi-11" value="调用函数查取变量:&lt;br&gt;DATA:L_matnr TYPE matnr,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; l_cnt TYPE i.&lt;br&gt;SELECT MAX(matnr) INTO l_matnr FROM mara.&lt;br&gt;SELECT COUNT(*) INTO l_cnt FROM mara." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="haaAPfIcuy-l9ZX20Lfi-11" value="调用函数查取变量:&lt;br&gt;DATA:L_matnr TYPE matnr,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; l_cnt TYPE i.&lt;br&gt;SELECT MAX(matnr) INTO l_matnr FROM mara.&lt;br&gt;SELECT COUNT(*) INTO l_cnt FROM mara." style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="520" y="50" width="300" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="haaAPfIcuy-l9ZX20Lfi-12" value="将查询结果集赋值到内表:&lt;br&gt;DATA:lt_mara LIKE TABLE OF mara WITH HEADER LINE.&lt;br&gt;SELECT * INTO CORRESPOND FIELDS OF TALBE lt_mara FROM mara&lt;br&gt;WHERE matnr BETWEEN &#39;1000001&#39; AND &#39;1000009&#39;.&lt;br&gt;其中CORRESPONDING,就是自动讲相同字段名的值分配的内表中&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="haaAPfIcuy-l9ZX20Lfi-12" value="将查询结果集赋值到内表:&lt;br&gt;DATA:lt_mara LIKE TABLE OF mara WITH HEADER LINE.&lt;br&gt;SELECT * INTO CORRESPOND FIELDS OF TALBE lt_mara FROM mara&lt;br&gt;WHERE matnr BETWEEN &#39;1000001&#39; AND &#39;1000009&#39;.&lt;br&gt;其中CORRESPONDING,就是自动讲相同字段名的值分配的内表中&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="520" y="150" width="300" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="haaAPfIcuy-l9ZX20Lfi-13" value="将查询结果单行赋值到表结构中:&lt;br&gt;DATA:ls_mara TYPE mara.&lt;br&gt;SELECT SINGLE * INTO CORRESPONDING FIELDS OF ls_mara FROM mara WHERE matnr&amp;nbsp; = &#39;1000001&#39;." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="haaAPfIcuy-l9ZX20Lfi-13" value="将查询结果单行赋值到表结构中:&lt;br&gt;DATA:ls_mara TYPE mara.&lt;br&gt;SELECT SINGLE * INTO CORRESPONDING FIELDS OF ls_mara FROM mara WHERE matnr&amp;nbsp; = &#39;1000001&#39;." style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="520" y="300" width="300" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="haaAPfIcuy-l9ZX20Lfi-14" value="表联合查询" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="520" y="430" width="300" height="110" as="geometry" />
+        <mxCell id="haaAPfIcuy-l9ZX20Lfi-14" value="表联合查询:&lt;br&gt;INNER JOIN&lt;br&gt;LEFT OUTER JOIN&lt;br&gt;FULL OUTER JOIN&lt;br&gt;SQL 语句中表名和表间用 &quot;~&quot; 符号连接&lt;br&gt;例子:&lt;br&gt;SELECT vbak~vbeln&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;SUM(vbap~kwmeng)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;SUM(vbap~netwr)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;vbak~vdatu&lt;br&gt;INTO TABLE lt_vbap FROM vbak&lt;br&gt;INNER JOIN vbap&lt;br&gt;ON vbap~vbeln = vbak~vbeln&lt;br&gt;WHERE vbak~erdat BETWEEN &#39;20110101&#39; AND &#39;20110110&#39;&lt;br&gt;GROUP BY vbak~vbeln vbak-vdatu&lt;br&gt;HAVING SUM(vbap~netwr) &amp;gt;&#39;10000&#39;&lt;br&gt;ORDER BY vbak~vdatu ASCENDING." style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="520" y="430" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-2" value="限制OpenSQL获取数据条数:&lt;br&gt;Select * into .... UP TO 5 ROWS." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="750" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-3" value="参照内表数据来进行查询:&lt;br&gt;SELECT * FROM sflight INTO CORRESPONDING FIELDS OF TABLE xflight&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;FOR ALL ENTRIES IN &lt;/font&gt;xpfli." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="820" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-4" value="查询结果字段名的转换(Mapping):&lt;br&gt;DATA:BEGIN OF xpfli OCCURS 0,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; carrid2 LIKE spfli-carrid,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; connid2 LIKE spfli-connid,&lt;br&gt;END OF xpfli." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="910" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-15" value="UPDATE &amp;lt;dbtab&amp;gt; SET f1 ..... fn(where &amp;lt;condition&amp;gt;).&lt;br&gt;例子:&lt;br&gt;UPDATE scustom SET discount = &#39;003&#39;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; telephone = &#39;13333&#39;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; WHERE id = &#39;abc&#39;." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1020" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-16" value="UPDATE&amp;lt;dbtab&amp;gt; FROM TABLE &amp;lt;itab&amp;gt;(where &amp;lt;condition&amp;gt;)." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1120" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-20" value="INSERT INTO&amp;lt;dbtab&amp;gt; VALUES &amp;lt;condition&amp;gt;.&lt;br&gt;例子:&lt;br&gt;TABLES: scustom.&lt;br&gt;scustom-id = &#39;123456&#39;.&lt;br&gt;scustom-name = &#39;VINSON&#39;.&lt;br&gt;INSERT INTO scustom values scustom." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1220" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-21" value="INSERT &amp;lt;dbtab&amp;gt; FROM TABLE &amp;lt;itab&amp;gt;.&lt;br&gt;例子:&lt;br&gt;TABLES sairport.&lt;br&gt;sairport-id =&#39;NEW&#39;.&lt;br&gt;sairport-name = &#39;VINSON&#39;&lt;br&gt;INSERT sairport." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1360" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="i7QzTo_KSgBQmP9yVamS-25" target="i7QzTo_KSgBQmP9yVamS-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="i7QzTo_KSgBQmP9yVamS-25" target="i7QzTo_KSgBQmP9yVamS-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="i7QzTo_KSgBQmP9yVamS-25" target="i7QzTo_KSgBQmP9yVamS-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-25" value="DELETE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1635" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-26" value="DELETE FROM dbtab WHERE cond.&lt;br&gt;例子:&lt;br&gt;TABLES sbook.&lt;br&gt;DELETE FROM sbook WHERE carrid = &#39;LH&#39; AND&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; connid = &#39;0400&#39;." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1500" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-27" value="DELETE dbtab.&lt;br&gt;例子:&lt;br&gt;TABLES sbook.&lt;br&gt;sbook-carrid =&#39;LH&#39;.&lt;br&gt;sbook-conid = &#39;0400&#39;.&lt;br&gt;DELETE sbook." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1610" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QzTo_KSgBQmP9yVamS-28" value="DELETE dbtab FROM TABLE itab." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1730" width="300" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
