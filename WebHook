@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T09:27:01.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="Ozbz17SLTofJI_OJQmpP" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-14T09:30:12.217Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="JmsXSE_ZxnvKxelRm29N" version="16.2.2" type="github">
   <diagram id="KObwhc7pL9fiehLb8Tye" name="Page-1">
     <mxGraphModel dx="1254" dy="1920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,14 +70,14 @@
         <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-12" value="Engine 是否处理成功?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="539" y="530" width="180" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-13" value="有WebHook Guid的请求都将记录到一张表A里面用于Hangfire定时执行过长时间需要重试的请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-13" value="有WebHook Guid的请求都将记录到一张表A里面用于Hangfire定时执行过长时间没有响应需要重试的请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="210" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-17" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="630" y="500" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-18" value="标记表A 为NG,并做预警处理(发Email)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="555" width="120" height="60" as="geometry" />
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-18" value="标记表A对应WebHook Guid 数据&lt;br&gt;为NG,并做预警处理(发Email)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="552.5" width="130" height="65" as="geometry" />
         </mxCell>
         <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-19" value="对于表A非NG状态的数据且插入时间与当前时间间隔一定时间的数据通过Hangfire定时处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="15" y="405" width="150" height="70" as="geometry" />
@@ -85,11 +85,14 @@
         <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-20" value="删除表A对应WebHook Guid 数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-23" value="OK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="555" y="690" width="30" height="20" as="geometry" />
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-23" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="690" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-25" value="NG" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-25" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="500" y="565" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-27" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="410" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
