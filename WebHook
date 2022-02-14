@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T10:08:53.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="dME6y4LaHQpe9cEtAu_o" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-14T10:09:28.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="XcxpeRqR2o42dXunWYEU" version="16.2.2" type="github">
   <diagram id="KObwhc7pL9fiehLb8Tye" name="Page-1">
     <mxGraphModel dx="1191" dy="1882" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,11 +94,11 @@
         <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-27" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="500" y="410" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="qHYeJBRXvDvC6SHseDml-1" value="调用外挂API&amp;nbsp; 返回Webhook Guid 以及是否ok的信号" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="202" y="698" width="287" height="18" as="geometry" />
+        <mxCell id="qHYeJBRXvDvC6SHseDml-1" value="调用外挂API&amp;nbsp; 传Webhook Guid 以及是否ok的信号" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="208" y="698" width="275" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="qHYeJBRXvDvC6SHseDml-2" value="调用外挂API&amp;nbsp; 返回Webhook Guid 以及是否ok的信号" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="202" y="565" width="287" height="18" as="geometry" />
+        <mxCell id="qHYeJBRXvDvC6SHseDml-2" value="调用外挂API&amp;nbsp; 传Webhook Guid 以及是否ok的信号" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="208" y="565" width="275" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
