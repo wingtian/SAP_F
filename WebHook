@@ -1,65 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T09:31:49.737Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="8aaZUmzRybqDH9DOtzNN" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-14T10:08:53.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="dME6y4LaHQpe9cEtAu_o" version="16.2.2" type="github">
   <diagram id="KObwhc7pL9fiehLb8Tye" name="Page-1">
-    <mxGraphModel dx="1254" dy="1920" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1191" dy="1882" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="850" as="sourcePoint" />
             <mxPoint x="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="850" as="sourcePoint" />
             <mxPoint x="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rnV7Iz-QvVZfr8x4Qvo9-3" target="rnV7Iz-QvVZfr8x4Qvo9-4">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="rnV7Iz-QvVZfr8x4Qvo9-3" target="rnV7Iz-QvVZfr8x4Qvo9-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-8" value="Restful Api&lt;br&gt;Header 传入WebHook Guid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rnV7Iz-QvVZfr8x4Qvo9-6">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-8" value="Restful Api&lt;br&gt;Header 传入WebHook Guid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rnV7Iz-QvVZfr8x4Qvo9-6" vertex="1" connectable="0">
           <mxGeometry x="-0.1518" y="-4" relative="1" as="geometry">
             <mxPoint x="7" y="26" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rnV7Iz-QvVZfr8x4Qvo9-3" target="rnV7Iz-QvVZfr8x4Qvo9-13">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rnV7Iz-QvVZfr8x4Qvo9-3" target="rnV7Iz-QvVZfr8x4Qvo9-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-3" value="外挂API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-3" value="外挂API" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rnV7Iz-QvVZfr8x4Qvo9-4" target="rnV7Iz-QvVZfr8x4Qvo9-5">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="rnV7Iz-QvVZfr8x4Qvo9-4" target="rnV7Iz-QvVZfr8x4Qvo9-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-9" value="Bus&lt;br&gt;传入 WebHook Guid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rnV7Iz-QvVZfr8x4Qvo9-7">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-9" value="Bus&lt;br&gt;传入 WebHook Guid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rnV7Iz-QvVZfr8x4Qvo9-7" vertex="1" connectable="0">
           <mxGeometry x="0.1362" y="3" relative="1" as="geometry">
             <mxPoint x="-11" y="33" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-4" value="小后台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-4" value="小后台" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="289" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rnV7Iz-QvVZfr8x4Qvo9-5" target="rnV7Iz-QvVZfr8x4Qvo9-11">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="rnV7Iz-QvVZfr8x4Qvo9-5" target="rnV7Iz-QvVZfr8x4Qvo9-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-5" value="Engine 端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-5" value="Engine 端" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="569" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rnV7Iz-QvVZfr8x4Qvo9-11" target="rnV7Iz-QvVZfr8x4Qvo9-12">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="rnV7Iz-QvVZfr8x4Qvo9-11" target="rnV7Iz-QvVZfr8x4Qvo9-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rnV7Iz-QvVZfr8x4Qvo9-11" target="rnV7Iz-QvVZfr8x4Qvo9-19">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="rnV7Iz-QvVZfr8x4Qvo9-11" target="rnV7Iz-QvVZfr8x4Qvo9-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-11" value="能否正常返回外挂API?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-11" value="能否正常返回外挂API?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="535.75" y="390" width="186.5" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rnV7Iz-QvVZfr8x4Qvo9-12" target="rnV7Iz-QvVZfr8x4Qvo9-18">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="rnV7Iz-QvVZfr8x4Qvo9-12" target="rnV7Iz-QvVZfr8x4Qvo9-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.996;entryY=0.651;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rnV7Iz-QvVZfr8x4Qvo9-12" target="rnV7Iz-QvVZfr8x4Qvo9-20">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.996;entryY=0.651;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rnV7Iz-QvVZfr8x4Qvo9-12" target="rnV7Iz-QvVZfr8x4Qvo9-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="629" y="730" as="targetPoint" />
             <Array as="points">
@@ -67,32 +67,38 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-12" value="Engine 是否处理成功?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-12" value="Engine 是否处理成功?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="539" y="530" width="180" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-13" value="有WebHook Guid的请求都将记录到一张表A里面用于Hangfire定时执行过长时间没有响应需要重试的请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-13" value="有WebHook Guid的请求都将记录到一张表A里面用于Hangfire定时执行过长时间没有响应需要重试的请求" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="210" width="120" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-17" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-17" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="630" y="500" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-18" value="标记表A对应WebHook Guid 数据&lt;br&gt;为NG,并做预警处理(发Email)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-18" value="标记表A对应WebHook Guid 数据&lt;br&gt;为NG,并做预警处理(发Email)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="25" y="552.5" width="130" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-19" value="对于表A非NG状态的数据且插入时间与当前时间间隔一定时间的数据通过Hangfire定时处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-19" value="对于表A非NG状态的数据且插入时间与当前时间间隔一定时间的数据通过Hangfire定时处理" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="15" y="405" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-20" value="删除表A对应WebHook Guid 数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-20" value="删除表A对应WebHook Guid 数据" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-23" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-23" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="630" y="690" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-25" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-25" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="500" y="565" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-27" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rnV7Iz-QvVZfr8x4Qvo9-27" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="500" y="410" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qHYeJBRXvDvC6SHseDml-1" value="调用外挂API&amp;nbsp; 返回Webhook Guid 以及是否ok的信号" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="202" y="698" width="287" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="qHYeJBRXvDvC6SHseDml-2" value="调用外挂API&amp;nbsp; 返回Webhook Guid 以及是否ok的信号" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="202" y="565" width="287" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
