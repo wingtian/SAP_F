@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T06:51:10.815Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="knk2HkcrTjauJGy4ZTAI" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T06:52:04.369Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="wAolfOBpIh22nIMXY_h7" version="22.1.17" type="github">
   <diagram name="第 1 页" id="fsL2psiZkac9huwS8dml">
     <mxGraphModel dx="956" dy="518" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="59x-sOBfFQgK5nGoAJkm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="59x-sOBfFQgK5nGoAJkm-12" target="59x-sOBfFQgK5nGoAJkm-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="59x-sOBfFQgK5nGoAJkm-15" value="TMS 通過Hooks 主動傳信息給第三方系統" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="59x-sOBfFQgK5nGoAJkm-14">
+        <mxCell id="59x-sOBfFQgK5nGoAJkm-15" value="TMS 通過Hooks 主動請求給第三方系統" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="59x-sOBfFQgK5nGoAJkm-14">
           <mxGeometry x="-0.5209" y="1" relative="1" as="geometry">
             <mxPoint x="29" y="1" as="offset" />
           </mxGeometry>
