@@ -1,11 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T07:23:09.214Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="FxWrV68kbJQfzGqAnEVI" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-05T07:52:10.090Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="x0rQYvOUbEg_ixhpMWfS" version="23.1.1" type="github">
   <diagram name="第 1 页" id="BaIi9u7aHFqwDKZlOI20">
-    <mxGraphModel dx="1386" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="956" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GCInlEy5cmwP7lyx617r-1" value="mysql 5.7数据库" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="80" width="120" height="80" as="geometry" />
+        <mxCell id="GCInlEy5cmwP7lyx617r-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GCInlEy5cmwP7lyx617r-1" target="GCInlEy5cmwP7lyx617r-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GCInlEy5cmwP7lyx617r-1" value="mysql 5.7数据库升级到mysql 8.0" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="177.73" y="-30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GCInlEy5cmwP7lyx617r-2" value="mysql 8.0数据库" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GCInlEy5cmwP7lyx617r-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GCInlEy5cmwP7lyx617r-6" target="GCInlEy5cmwP7lyx617r-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GCInlEy5cmwP7lyx617r-15" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GCInlEy5cmwP7lyx617r-13">
+          <mxGeometry x="-0.1357" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCInlEy5cmwP7lyx617r-24" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GCInlEy5cmwP7lyx617r-13">
+          <mxGeometry x="-0.1128" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCInlEy5cmwP7lyx617r-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GCInlEy5cmwP7lyx617r-6" target="GCInlEy5cmwP7lyx617r-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GCInlEy5cmwP7lyx617r-19" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GCInlEy5cmwP7lyx617r-17">
+          <mxGeometry x="-0.2436" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCInlEy5cmwP7lyx617r-6" value="表主键是否有设置 &quot;CHARACTER SET ascii COLLATE ascii_general_ci&quot;" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="140" y="205" width="195.47" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="GCInlEy5cmwP7lyx617r-8" value="创建mysql 8.0表结构" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="177.73" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GCInlEy5cmwP7lyx617r-10" value="提前做一轮灰度同步mysql 8.0的升级看看是否有异常发生" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="222.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GCInlEy5cmwP7lyx617r-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GCInlEy5cmwP7lyx617r-11" target="GCInlEy5cmwP7lyx617r-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GCInlEy5cmwP7lyx617r-16" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GCInlEy5cmwP7lyx617r-14">
+          <mxGeometry x="-0.2881" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCInlEy5cmwP7lyx617r-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GCInlEy5cmwP7lyx617r-11" target="GCInlEy5cmwP7lyx617r-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GCInlEy5cmwP7lyx617r-11" value="是否去掉?" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420" y="205" width="195.47" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="GCInlEy5cmwP7lyx617r-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GCInlEy5cmwP7lyx617r-22" target="GCInlEy5cmwP7lyx617r-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="237.73000000000002" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCInlEy5cmwP7lyx617r-22" value="创建mysql 8.0数据库与表结构" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="177.73000000000002" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GCInlEy5cmwP7lyx617r-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GCInlEy5cmwP7lyx617r-25" target="GCInlEy5cmwP7lyx617r-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GCInlEy5cmwP7lyx617r-25" value="修改mysql 8.0表结构" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="457.74" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GCInlEy5cmwP7lyx617r-29" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="318" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
