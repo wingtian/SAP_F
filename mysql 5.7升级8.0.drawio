@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T01:16:53.775Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="0t8paTbE9yHacFhZfkto" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-06T01:20:23.215Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="ewXAk5bagSEC4vdzlyUz" version="23.1.1" type="github">
   <diagram name="第 1 页" id="EISv82q6qKKozphU0Z3M">
     <mxGraphModel dx="956" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,23 +40,17 @@
         <mxCell id="MeYun6L2m2bf5LSQbMc_-6" value="检查数据一致性" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MeYun6L2m2bf5LSQbMc_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MeYun6L2m2bf5LSQbMc_-7" target="MeYun6L2m2bf5LSQbMc_-8">
+        <mxCell id="MeYun6L2m2bf5LSQbMc_-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MeYun6L2m2bf5LSQbMc_-7" target="MeYun6L2m2bf5LSQbMc_-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MeYun6L2m2bf5LSQbMc_-7" value="释放迁移任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="900" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MeYun6L2m2bf5LSQbMc_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MeYun6L2m2bf5LSQbMc_-8" target="MeYun6L2m2bf5LSQbMc_-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="MeYun6L2m2bf5LSQbMc_-8" value="释放迁移任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="990" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="MeYun6L2m2bf5LSQbMc_-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MeYun6L2m2bf5LSQbMc_-9" target="MeYun6L2m2bf5LSQbMc_-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MeYun6L2m2bf5LSQbMc_-9" value="修改数据库连接，发布api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1080" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MeYun6L2m2bf5LSQbMc_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MeYun6L2m2bf5LSQbMc_-18" target="MeYun6L2m2bf5LSQbMc_-5">
           <mxGeometry relative="1" as="geometry">
@@ -124,7 +118,7 @@
           <mxGeometry x="330" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MeYun6L2m2bf5LSQbMc_-36" value="mysql5.7 到8.0 迁移计划结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1180" width="120" height="80" as="geometry" />
+          <mxGeometry x="100" y="1100" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
