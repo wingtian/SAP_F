@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T05:02:57.776Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="mp855Ejb88OEAShwJ9Yi" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T05:13:42.308Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="9ErnnKxorg8hUEeE_XwX" version="24.2.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="906" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="906" dy="1341" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="77e6c97f196da883-1" value="SD250" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="40" width="960" height="950" as="geometry" />
+          <mxGeometry x="70" y="-50" width="960" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-2" value="OMEGO" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry y="20" width="160" height="930" as="geometry" />
+          <mxGeometry y="20" width="160" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="8p-ZHCidbIZh-E5DyMVR-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-2" source="8p-ZHCidbIZh-E5DyMVR-11" target="8p-ZHCidbIZh-E5DyMVR-18">
           <mxGeometry relative="1" as="geometry" />
@@ -22,28 +22,25 @@
         <mxCell id="8p-ZHCidbIZh-E5DyMVR-18" value="創建第三方收貨通知" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
           <mxGeometry x="30" y="310" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="8p-ZHCidbIZh-E5DyMVR-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-2" source="8p-ZHCidbIZh-E5DyMVR-19" target="8p-ZHCidbIZh-E5DyMVR-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8p-ZHCidbIZh-E5DyMVR-19" value="創建SO發票" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
           <mxGeometry x="30" y="390" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="8p-ZHCidbIZh-E5DyMVR-60" value="存入byd inv 缓存表" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="30" y="470" width="100" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="77e6c97f196da883-3" value="HIFOOD" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="160" y="20" width="160" height="930" as="geometry" />
+          <mxGeometry x="160" y="20" width="160" height="1020" as="geometry" />
         </mxCell>
-        <mxCell id="8p-ZHCidbIZh-E5DyMVR-1" value="&lt;span style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;Hangfire 同步BYD INV到ECC mapping表&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry x="30" y="460" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="8p-ZHCidbIZh-E5DyMVR-2" value="Load Byd INV数据(By lastmodifydate?)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry x="40" y="575" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="77e6c97f196da883-9" value="byd inv 缓存表" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
-          <mxGeometry x="-120" y="680" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="8p-ZHCidbIZh-E5DyMVR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" source="8p-ZHCidbIZh-E5DyMVR-2" target="77e6c97f196da883-9">
+        <mxCell id="8p-ZHCidbIZh-E5DyMVR-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-3" source="8p-ZHCidbIZh-E5DyMVR-1" target="8p-ZHCidbIZh-E5DyMVR-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8p-ZHCidbIZh-E5DyMVR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-3" source="8p-ZHCidbIZh-E5DyMVR-5" target="8p-ZHCidbIZh-E5DyMVR-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8p-ZHCidbIZh-E5DyMVR-5" value="&lt;span style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;Hangfire 定时创建Byd SO同步&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-3">
+        <mxCell id="8p-ZHCidbIZh-E5DyMVR-5" value="&lt;span style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;1.Hangfire 定时创建Byd SO同步&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="20" y="30" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8p-ZHCidbIZh-E5DyMVR-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" source="8p-ZHCidbIZh-E5DyMVR-6" target="8p-ZHCidbIZh-E5DyMVR-10">
@@ -52,13 +49,31 @@
         <mxCell id="8p-ZHCidbIZh-E5DyMVR-6" value="Load Ecc So" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="30" y="130" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8p-ZHCidbIZh-E5DyMVR-10" value="Ecc So To Byd So" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
+        <mxCell id="8p-ZHCidbIZh-E5DyMVR-10" value="Ecc So To Byd So 逻辑" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="30" y="210" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-5" value="SAPGAWAY" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="320" y="20" width="160" height="930" as="geometry" />
+        <mxCell id="8p-ZHCidbIZh-E5DyMVR-1" value="&lt;span style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;3.Hangfire 同步BYD INV到ECC mapping表&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="20" y="560" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8p-ZHCidbIZh-E5DyMVR-7" value="Ecc So Api" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-5">
+        <mxCell id="8p-ZHCidbIZh-E5DyMVR-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" source="8p-ZHCidbIZh-E5DyMVR-2" target="8p-ZHCidbIZh-E5DyMVR-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8p-ZHCidbIZh-E5DyMVR-2" value="Load Byd INV数据(By lastmodifydate?)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="30" y="670" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-9" value="load byd inv 缓存表 api" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
+          <mxGeometry x="-130" y="750" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8p-ZHCidbIZh-E5DyMVR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" source="8p-ZHCidbIZh-E5DyMVR-2" target="77e6c97f196da883-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8p-ZHCidbIZh-E5DyMVR-70" value="Byd Inv To Ecc Mapping逻辑" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="30" y="830" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-5" value="SAPGAWAY" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry x="320" y="20" width="160" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="8p-ZHCidbIZh-E5DyMVR-7" value="Load Ecc So Sapgateway Api" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-5">
           <mxGeometry x="30" y="130" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8p-ZHCidbIZh-E5DyMVR-13" value="创建BYD SO Sapgateway Api" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-5">
@@ -70,11 +85,23 @@
         <mxCell id="8p-ZHCidbIZh-E5DyMVR-53" value="創建SO發票&amp;nbsp;&lt;div&gt;Sapgateway Api&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-5">
           <mxGeometry x="30" y="390" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="8p-ZHCidbIZh-E5DyMVR-65" value="&lt;span style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;2.定时同步sap ecc 表信息到sapgateway&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-5">
+          <mxGeometry x="20" y="470" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8p-ZHCidbIZh-E5DyMVR-72" value="更新Ecc Mapping Sapgateway Api" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-5">
+          <mxGeometry x="30" y="830" width="100" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="77e6c97f196da883-6" value="SAP ECC" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="480" y="20" width="160" height="930" as="geometry" />
+          <mxGeometry x="480" y="20" width="160" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="8p-ZHCidbIZh-E5DyMVR-66" value="各种RFC" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-6">
+          <mxGeometry x="30" y="480" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8p-ZHCidbIZh-E5DyMVR-73" value="更新Ecc Mapping RFC" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-6">
+          <mxGeometry x="30" y="830" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-7" value="SAP BYD" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="640" y="20" width="160" height="930" as="geometry" />
+          <mxGeometry x="640" y="20" width="160" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="8p-ZHCidbIZh-E5DyMVR-14" value="创建BYD SO ODATA OR SOAP" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-7">
           <mxGeometry x="30" y="210" width="100" height="60" as="geometry" />
@@ -107,6 +134,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8p-ZHCidbIZh-E5DyMVR-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="8p-ZHCidbIZh-E5DyMVR-53" target="8p-ZHCidbIZh-E5DyMVR-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8p-ZHCidbIZh-E5DyMVR-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="8p-ZHCidbIZh-E5DyMVR-65" target="8p-ZHCidbIZh-E5DyMVR-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8p-ZHCidbIZh-E5DyMVR-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="8p-ZHCidbIZh-E5DyMVR-70" target="8p-ZHCidbIZh-E5DyMVR-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8p-ZHCidbIZh-E5DyMVR-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-1" source="8p-ZHCidbIZh-E5DyMVR-72" target="8p-ZHCidbIZh-E5DyMVR-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
