@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T05:23:33.335Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="IxjC5Hl8yOz_5VeJruRv" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T05:23:59.416Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="16fVY9vkTPjP2fNQ0H9q" version="24.2.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1094" dy="1442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -133,10 +133,10 @@
         <mxCell id="8p-ZHCidbIZh-E5DyMVR-14" value="创建BYD SO ODATA OR SOAP" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-7">
           <mxGeometry x="30" y="210" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8p-ZHCidbIZh-E5DyMVR-56" value="创建BYD SO ODATA OR SOAP" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-7">
+        <mxCell id="8p-ZHCidbIZh-E5DyMVR-56" value="創建第三方收貨通知&amp;nbsp;&amp;nbsp;ODATA OR SOAP" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-7">
           <mxGeometry x="30" y="310" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8p-ZHCidbIZh-E5DyMVR-57" value="创建BYD SO ODATA OR SOAP" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-7">
+        <mxCell id="8p-ZHCidbIZh-E5DyMVR-57" value="創建SO發票&amp;nbsp;&amp;nbsp;ODATA OR SOAP" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-7">
           <mxGeometry x="30" y="390" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8p-ZHCidbIZh-E5DyMVR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="8p-ZHCidbIZh-E5DyMVR-6" target="8p-ZHCidbIZh-E5DyMVR-7">
